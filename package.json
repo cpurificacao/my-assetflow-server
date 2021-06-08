@@ -1,7 +1,7 @@
 {
   "name": "my-assetflow-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "https://github.com/cpurificacao/my-assetflow-server",
   "author": "cpurificacao <cpurificacao@outlook.com>",
   "license": "MIT",
