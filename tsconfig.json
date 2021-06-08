@@ -1,0 +1,23 @@
+{
+  "include": ["index.ts", "src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["ES2019", "ES2020.Promise", "ES2020.String"],
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./build",
+    "removeComments": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
